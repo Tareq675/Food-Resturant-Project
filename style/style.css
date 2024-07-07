@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", sans-serif;
+}
+/* banner section style starts here */
+.banner-container{
+    /* border: 2px solid red; */
+    max-width: 1320px;
+    /* min-height: 600px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.3);
+    background-image: url("../assets/burger.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    color:#fff;
+    /* font-size: 35px; */
+   
+}
+
+.banner-content h {
+    /* color: papayawhip; */
+    font-size: 72px;
+    font-weight: 800;
+}
+/* grid img design */
+.portfolio{
+    border: 1px solid #ff0000;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.grid-img-container {
+    margin-top: 20px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:repeat(3,1fr);
+    gap: 5px;
+    
+}
+
+.grid-image {
+    height: 100%;
+    width: 100%;
+}
+
+
